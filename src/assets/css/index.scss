@@ -1,0 +1,121 @@
+$mainColor: #2ebac6;
+
+.filter-btn {
+    padding: 0px;
+    border-radius: 4px;
+    margin-left: 6px;
+    height: 17px;
+
+}
+
+.filter-win {
+    position: absolute;
+    z-index: 999999;
+    right: 0;
+    top: 30px;
+    width: 300px;
+    background-color: #ffffff;
+    border: #ececec solid 1px;
+    padding: 15px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    border-top: #23cbe0 solid 2px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-gray {
+    color: #555;
+}
+
+.center-form {
+    justify-items: center;
+    display: inline-block;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.i-ma-sm {
+    padding: 5px;
+}
+
+.overflow-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.width-3 {
+    width: 30%;
+}
+
+.width-5 {
+    width: 50%;
+}
+
+.width-8 {
+    width: 80%;
+}
+
+.width-10 {
+    width: 100%;
+}
+
+.max-width-10 {
+    max-width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select:none;
+}
+
+.main-color {
+    color: $mainColor;
+}
+
+.mb-xs {
+    margin-bottom: 3px !important;
+
+}
+
+.ma-xs {
+    margin: 3px;
+}
+
+.ma-sm {
+    margin: 15px;
+}
+
+.inline-block{
+    display: inline-block;
+}
